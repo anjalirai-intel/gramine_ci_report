@@ -30,6 +30,7 @@
 29,sklearn.datasets._openml.OpenMLError: Dataset(.*) not found,Dataset Download Error
 30,Failed to fetch http:..archive.ubuntu.com/ubuntu.dists(.*)504  Gateway Timeout,Apt Connection Error
 31,Cannot download repomd.xml. Cannot download repodata.repomd.xml. All mirrors were tried,Network Connection Error
-32,hudson.remoting.ChannelClosedException: Channel "hudson.remoting.(.*)The channel is closing down,Local CI Error
+32,"hudson.remoting.ChannelClosedException: Channel ""hudson.remoting.(.*)The channel is closing down",Local CI Error
 33,ERROR:(.*)read: connection reset by peer,Network Connection Error
 34,Unable to establish SSL connection,SSL Connection Error
+35,"ERROR: Unknown options: ""sgx_driver, sgx_driver_include_path""",Meson Build Error
